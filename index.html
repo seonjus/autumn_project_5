@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terraria Guide</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html{background-color: #D4F4FA;}
+		#wrap{width: 1200px;  overflow: hidden;margin: auto;}
+
+		body{margin: 0;}
+		section{width: 1200px; height: 800px; position: relative; display: block; margin: auto;}
+		#monitor{position:fixed; padding:5px; top:0; right:0; width:70px; height:20px; color: black; }
+
+
+		#main{background: url(aback.png); background-size: cover; background-attachment: fixed;  margin-top: 10px; height: 950px; }
+
+		.text1{width: 300px; position: absolute; margin-left: 58%; margin-top: 37%; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t1{background: black; padding: 30px; color: white; opacity: 0;}
+
+		.text21{width: 300px; position: absolute; margin-left: 100px; margin-top: 37%; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t21{background: black; padding: 30px; color: white;opacity: 0;}
+
+		.text22{width: 300px; position: absolute; margin-left: 750px; margin-top: 37%; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t22{background: black; padding: 30px; color: white;opacity: 0;}
+
+		#c{height: 2000px;}
+		.text31{width: 500px; position: absolute; margin-left: 330px; margin-top: 37%; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t31{background: black; padding: 30px; color: white;opacity: 0;}
+
+		#d{height: 1800px;}
+		.text4{width: 300px; position: absolute; margin-left: 750px; margin-top: 200px; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t4{background: black; padding: 30px; color: white; opacity: 0;}
+
+		#e{height: 1300px;}
+		.text5{width: 300px; position: absolute; margin-left: 700px; margin-top: 200px; font-size: 11pt; line-height: 2; font-family: 'Noto Sans KR', sans-serif; border-radius:2%;}
+		#t5{background: black; padding: 30px; color: white; opacity: 0;}
+
+
+		@keyframes disappear{
+			from{opacity: 1;}
+			to{opacity: 0;}
+		}
+
+		@keyframes appear{
+			from{opacity: 0;}
+			to{opacity: 1;}
+		}
+
+		@keyframes right1{
+			from{opacity: 0; margin-left: 65%;}
+			to{opacity: 1}
+		}
+
+		@keyframes right2{
+			from{opacity: 0; margin-left: 850px;}
+			to{opacity: 1}
+		}
+
+		@keyframes left1{
+			from{opacity: 0; margin-left: 50px;}
+			to{opacity: 1}
+		}
+
+		@keyframes left2{
+			from{opacity: 0; margin-left: -200px;}
+			to{opacity: 1}
+		}
+	</style>
+</head>
+<body>
+	<div id="monitor"></div>
+	<div id="wrap">
+		<audio id="music1">
+			<source src="music1.mp3" type="audio/mpeg">
+		</audio>
+		<section id="main">
+			<img src="mytitle.jpg" style="margin: auto; display: block; position: absolute; margin-top: 350px; margin-left: 350px;    " id="mytitle">
+			<img src="play.gif" style="display: block; width: 200px; position: absolute; margin-left: 520px; margin-top: 530px; " id="play">	
+		</section>
+
+		<section id="a">
+			<img src="start.gif" style="margin: auto; display: block; position: absolute; width: 500px; margin-top: 200px; margin-left: 150px; opacity: 0; " id="astart">
+			<img src="slime.gif" style="margin: auto; display: block; position: absolute; width: 300px; margin-left: 600px; margin-top: 90px; opacity: 0;" id="slime">
+			<div class="text1" id="t1">
+				테라리아는 2D의 단면화된 시야를 배경으로 캐릭터가 움직이는 3인칭 게임입니다. 아이템이 매우 다양하고 환상적인 요소가 담겨져 있는 RPG 게임형태를 띄고 있습니다. 유한한 맵에서 다양한 건축 블록과 아이템으로 나만의 세계를 꾸미고, 다양한 NPC들을 만나볼 수 있으며, 강력한 보스들을 처치할 수 있습니다. 또한, 특정 조건을 만족하면 일어나는 특별한 이벤트도 찾아볼 수 있습니다.
+			</div>
+		</section>
+
+		<section id="b">
+			<img src="charac.jpg" style="margin: auto; display: block;position: absolute; width: 600px; margin-top: 100px; margin-left: 300px; opacity: 0;" id="charac">
+			<div class="text21" id="t21">
+				테라리아는 하나의 캐릭터로 여러 개의 세계를 탐험할 수 있다. 다양한 캐릭터를 만들어서 역할을 분담하거나 아이템 습득용, 건축용 등으로 따로따로 관리할 수가 있다.
+			</div>
+			<div class="text22" id="t22">
+				캐릭터를 생성할 때 헤어, 눈, 피부, 옷, 성별, 이름을 커스터마이징 가능하며, 무작위 설정도 할 수 있다. 헤어와 옷은 차후 본 게임에서 변경 가능하지만 눈과 피부는 변경할 수 있는 방법이 없으므로 신중하게 지정해야한다. 반면, 성전환 포션을 통해 성별은 언제든지 변경이 가능하다.
+			</div>
+		</section>
+
+		<section id="c">
+				<img src="map.png" style="margin: auto; display: block;position: absolute; width: 1000px;  margin-top: 100px; margin-left: 100px; opacity: 0;" id="map">
+				<div class="text31" id="t31">
+					테라리아의 세계는 매우 다양한 지형으로 구성된다. 따로 특정한 구역이 정해져 있지 않으며 그 지형을 상징하는 특별한 블록의 분포량으로 결정된다. 각 지형은 그 고유의 배경과 음악을 가지므로 이를 통해 쉽게 인지할 수 있다. 위 사진은 테라리아에서 생성되는 세계의 모든 지형을 층, 지형별로 구분해놓은 사진이다.
+				</div>
+				<img src="forest.png" style="margin: auto; display: block;position: absolute; margin-top: 700px; margin-left: 350px;opacity: 0;" id="forest">
+				<img src="desert.png" style="margin: auto; display: block;position: absolute; margin-top: 900px; margin-left: 350px;opacity: 0;" id="desert">
+				<img src="gungle.png" style="margin: auto; display: block;position: absolute; margin-top: 1100px; margin-left: 350px;opacity: 0;" id="gungle">
+				<img src="under.png" style="margin: auto; display: block;position: absolute; margin-top: 1300px; margin-left: 350px;opacity: 0;" id="under">
+				<img src="underworld.png" style="margin: auto; display: block;position: absolute; margin-top: 1500px; margin-left: 350px;opacity: 0;" id="underworld">
+				<img src="cavern.png" style="margin: auto; display: block;position: absolute; margin-top: 1700px; margin-left: 350px;opacity: 0;" id="cavern">
+		</section>
+
+		<section id="d">
+			<img src="house1.png" style="margin: auto; display: block;position: absolute;width: 600px; margin-top: 50px; margin-left: 100px;opacity: 0;" id="house1" >
+			<div class="text4" id="t4">
+				집을 지을 때는 2D라는 특징 덕분에 간단한 편입니다. 적절히 사각형으로 지으면 되지만 자신만의 독특한 집을 짓는 것도 게임 속 재미중 하나입니다. 집의 지형지물이 되는 블록과 2D의 배경이 되는 벽을 설치하는 식으로 집을 짓게 되는데, 블록과 벽타일의 종류가 수백 가지나 되며, 추가로 페인트나 특수 블록으로 더 다양한 색감과 질감을 낼 수 있습니다.
+			</div>
+			<img src="house2.gif" style="margin: auto; display: block;position: absolute;width: 700px; margin-top: 700px; margin-left: 500px;opacity: 0;" id="house2">
+			<img src="house3.png" style="margin: auto; display: block;position: absolute;width: 700px; margin-top: 1330px; margin-left: 200px;opacity: 0;" id="house3">
+			
+		</section>
+
+		<section id="e">
+			<img src="fight1.gif" style="margin: auto; display: block;position: absolute;width: 500px; margin-top: 100px; margin-left: 150px;opacity: 0;" id="fight1">
+			<div class="text5" id="t5">
+				테라리아는 전투의 비중이 높습니다. 낮에는 슬라임을 잡아 젤을 얻어 횃불을 만들고, 밤에는 좀비 떼와 하늘을 날아다니는 악마의 눈들에게서 몸을 지켜야 합니다. 특정 조건을 만족하면 고블린 부대가 레이드를 오며, 지하 최하층으로 가게 되면 있는 지옥에서는 악마들과 싸우게 됩니다. 이외에도 여러 보스 몬스터가 등장하며, 이들을 잡아야만 얻을 수 있는 아이템이 있어 반드시 잡아야 합니다. 장비에 따라 차이가 많이 나므로 더 좋은 무기를 얻는 것이 중요합니다.
+			</div>
+			<img src="fight2.gif" style="margin: auto; display: block;position: absolute;width: 500px; margin-top: 650px; margin-left: 380px;opacity: 0;" id="fight2">
+			<img src="fight3.gif" style="margin: auto; display: block;position: absolute;width: 500px; margin-top: 900px; margin-left: 380px;opacity: 0;" id="fight3">
+
+		</section>
+		<script type="text/javascript">
+			play.onclick = function(){
+				music1.play();
+			}
+
+			window.onscroll = function(){
+				var t =document.documentElement.scrollTop + document.body.scrollTop;
+				monitor.innerHTML = t.toFixed(1);
+
+				if(t > 650){main.style.animation = "disappear 1.5s forwards";}
+				else{main.style.animation = "";}
+
+				if(t > 700){astart.style.animation = "appear 2s forwards";}
+				else{astart.style.animation = "";}
+
+				if(t > 700){slime.style.animation = "appear 2s forwards";}
+				else{slime.style.animation = "";}
+
+				if(t > 800){t1.style.animation = "right1 4s forwards";}
+				else{t1.style.animation = "";}
+
+				if(t > 1300){charac.style.animation = "appear 2s forwards";}
+				else{charac.style.animation = "";}
+
+				if(t > 1550){t21.style.animation = "left1 2s forwards";}
+				else{t21.style.animation = "";}
+
+				if(t > 1700){t22.style.animation = "right1 2s forwards";}
+				else{t22.style.animation = "";}
+
+				if(t > 1950){map.style.animation = "appear 2s forwards";}
+				else{map.style.animation = "";}
+
+				if(t > 2450){t31.style.animation = "appear 2s forwards";}
+				else{t31.style.animation = "";}
+
+				if(t > 2600){forest.style.animation = "appear 2s forwards";}
+				else{forest.style.animation = "";}
+
+				if(t > 2750){desert.style.animation = "appear 2s forwards";}
+				else{desert.style.animation = "";}
+
+				if(t > 2900){gungle.style.animation = "appear 2s forwards";}
+				else{gungle.style.animation = "";}
+
+				if(t > 3050){under.style.animation = "appear 2s forwards";}
+				else{under.style.animation = "";}
+
+				if(t > 3200){underworld.style.animation = "appear 2s forwards";}
+				else{underworld.style.animation = "";}
+
+				if(t > 3350){cavern.style.animation = "appear 2s forwards";}
+				else{cavern.style.animation = "";}
+
+				if(t > 3850){house1.style.animation = "appear 2s forwards";}
+				else{house1.style.animation = "";}
+
+				if(t > 4290){t4.style.animation = "right1 2s forwards";}
+				else{t4.style.animation = "";}
+
+				if(t > 4550){house2.style.animation = "right2 2s forwards";}
+				else{house2.style.animation = "";}
+
+				if(t > 5300){house3.style.animation = "left2 2s forwards";}
+				else{house3.style.animation = "";}
+
+				if(t > 6000){fight1.style.animation = "appear 2s forwards";}
+				else{fight1.style.animation = "";}
+
+				if(t > 6100){t5.style.animation = "right2 2s forwards";}
+				else{t5.style.animation = "";}
+
+				if(t > 6500){fight2.style.animation = "appear 2s forwards";}
+				else{fight2.style.animation = "";}
+
+				if(t > 6700){fight3.style.animation = "appear 2s forwards";}
+				else{fight3.style.animation = "";}
+
+			}
+		</script>
+	</div>
+</body>
+<footer style="text-align: center; color: white; width: inherit;background: black; height: 100px; padding-top: 80px;">@ 20191015 designed by SimSeonJu</footer>
+</html>
